@@ -57,6 +57,14 @@
         </div>
       </div>
       <div class="form-group row">
+        <label for="markup" class="col-sm-2 col-form-label">Markup</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control form-control-lg" id="markup" readonly>
+        </div>
+      </div>
+
+
+      <div class="form-group row">
         <label for="custopVariav" class="col-sm-2 col-form-label">Custo Variável Unitário</label>
         <div class="col-sm-10">
           <input type="text" class="form-control form-control-lg" id="custoVariav" required novalidate>
@@ -74,11 +82,6 @@
           <input type="text" class="form-control form-control-lg" id="pvServico" readonly>
         </div>
       </div>
-
-
-
-
-
     </form>
     <script>
       // Example starter JavaScript for disabling form submissions if there are invalid fields
