@@ -112,7 +112,7 @@
   <br><br>
   <footer>
     <div class="container">
-      <h5 class="text-center">Desenvolvido por <a href="https://www.mltopsites.com.br" target="new"> ML TOP SITES</a></h5>
+      <h5 class="text-center">Desenvolvido por <a class="link-info" href="https://www.mltopsites.com.br" target="new"> ML TOP SITES</a></h5>
     </div>
   </footer>
   <!-- JavaScript and dependencies -->
