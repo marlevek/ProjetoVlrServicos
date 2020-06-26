@@ -5,21 +5,22 @@
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="calcule aqui o valor do seu serviço de forma correta, e não tenha prejuízo.">
   <title>Valor do Serviço</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
   <style>
     h1 {
       color: #006633;
-      text-shadow: 2px 2px 2px #006633;
+      text-shadow: 2px 2px 2px #006633,
+        2px 2px 2px #006633,
+        2px 2px 2px #006633,
+        2px 2px 2px rgba(0, 255, 0, 0.3);
     }
 
     h2 {
       font-size: x-large;
-      color: #000;
-      background-color: mediumaquamarine;
       text-align: center;
     }
 
@@ -40,7 +41,7 @@
 <body>
   <img class="img-fluid" src="assets\imagens\img-header-valor-servico.png" alt="imagem cabeçalho valor serviço">
   <div class="container">
-    <h1 class="text-center mt-4">VALOR DO SERVIÇO PRESTADO</h1>
+    <h1 class="display-3 text-center mt-4">VALOR DO SERVIÇO PRESTADO</h1>
     <p>Calcular o valor da prestação do serviço corretamente é importante, pois serve para avaliar se a estrutura de custos da empresa ou do profissional permite a ela ou a ele ser competitivo no mercado.</p>
     <p>Para calcular o preço de venda na prestação de serviços deve-se conhecer os custos e despesas e também deve ser analisado o preço praticado pela concorrência, pois, os clientes estão pesquisando preços e procurando qualidade, tanto dos serviços quanto do atendimento.</p>
     <p>Assim, os preços calculados através de fórmulas servirão apenas como um referencial para comparação com os de mercado.</p>
@@ -49,7 +50,7 @@
   <div class="container mt-4">
     <div class="row">
       <div class="col-sm-12 col-md-5">
-        <h2>Conceitos Importantes</h2>
+        <h2 class="shadow-sm bg-dark rounded text-warning">Conceitos Importantes</h2>
         <h3 style="font-size:larger">Despesas Fixas:</h3>
         <p>São as despesas que vão incorrer, tem que ser pagas, chova ou faça sol, enquanto a empresa existir.</p>
         <hr>
@@ -114,6 +115,10 @@
       <h5 class="text-center">Desenvolvido por <a href="https://www.mltopsites.com.br" target="new"> ML TOP SITES</a></h5>
     </div>
   </footer>
+  <!-- JavaScript and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
